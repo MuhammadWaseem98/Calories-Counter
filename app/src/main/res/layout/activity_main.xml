@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/back1">
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/iconemain"
+            android:layout_gravity="center"
+            ></ImageView>
+        <TextView
+            android:textColor="@color/lighttorange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome To"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="60sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:textColor="#FFFFFF"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="My Net Diary"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:layout_marginTop="0dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+       >
+
+        <Button
+
+            android:id="@+id/buttonsignup"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="#0DD528"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="#ffff"
+            android:text="I AM NEW " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already used this app"
+            android:textColor="#ffff"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+
+            ></TextView>
+
+        <Button
+
+            android:id="@+id/buttonsignin"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#0DD528"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="#ffff"
+            android:text="sign in " />
+    </LinearLayout>
+
+
+</LinearLayout>

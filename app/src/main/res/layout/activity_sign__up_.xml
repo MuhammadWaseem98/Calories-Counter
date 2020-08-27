@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmeal2"
+
+    app:layout_editor_absoluteX="0dp"
+    app:layout_editor_absoluteY="80dp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="80dp"
+    tools:context=".Sign_Up_Activity">
+
+
+
+
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What was your last meal ?"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            ></TextView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:text="Breackfast"
+
+            android:textAlignment="textStart"
+            android:drawableStart="@drawable/outline_free_breakfast_red_800_18dp"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:drawablePadding="0dp"
+            >
+
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:text="Lunch"
+
+            android:textAlignment="textStart"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/lunch"
+            android:padding="16dp"
+            android:drawablePadding="0dp"
+            >
+
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+
+            android:drawableStart="@drawable/diner"
+            android:drawablePadding="0dp"
+            android:padding="16dp"
+            android:text="Dinner"
+            android:textAlignment="textStart">
+
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:text="Snack"
+            android:textAlignment="textStart"
+            android:drawableStart="@drawable/bbb"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:drawablePadding="0dp"
+            >
+
+        </Button>
+    </LinearLayout>-->
+
+    <TextView
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="What was your last meal ?"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        android:background="#FFFFFF"
+        android:text="Breackfast"
+
+        android:textAlignment="textStart"
+        android:drawableStart="@drawable/outline_free_breakfast_red_800_18dp"
+        android:padding="16dp"
+        android:drawablePadding="0dp"
+
+        />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        android:background="#FFFFFF"
+        android:text="Lunch"
+
+        android:textAlignment="textStart"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/lunch"
+        android:padding="16dp"
+        android:drawablePadding="0dp"
+        />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+
+        android:drawableStart="@drawable/diner"
+        android:drawablePadding="0dp"
+        android:padding="16dp"
+        android:text="Dinner"
+        android:textAlignment="textStart"
+        />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        android:background="#FFFFFF"
+        android:text="Snack"
+        android:textAlignment="textStart"
+        android:drawableStart="@drawable/bbb"
+        android:padding="16dp"
+        android:drawablePadding="0dp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

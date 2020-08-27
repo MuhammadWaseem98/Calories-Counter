@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/back1"
+    android:padding="60dp"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/iconemain"
+        android:layout_marginTop="0dp"
+        ></ImageView>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="  Email or Username"
+        android:background="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:textColor="#050505"
+        android:drawableLeft="@drawable/baseline_email_black_24dp"
+
+        ></EditText>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="  password"
+        android:background="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/baseline_lock_black_24dp"
+
+        ></EditText>
+
+    <Button
+
+        android:id="@+id/buttonsigninm"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#0DD528"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:textColor="#ffff"
+        android:layout_marginTop="20dp"
+        android:text="sign in " />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Or"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            ></TextView>
+
+        <!--<TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="REGISTER"
+            android:paddingLeft="10dp"
+            android:textColor="#01F33A"
+            android:textStyle="bold"
+            ></TextView>-->
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/buttonsigninfacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#2742D8"
+        android:drawableStart="@drawable/fff"
+        android:textSize="17sp"
+        android:textColor="#ffff"
+        android:padding="16dp"
+        android:drawablePadding="0dp"
+        android:layout_marginTop="20dp"
+        android:text="sign in with facbook " />
+    <Button
+
+        android:id="@+id/buttonsigningoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#2196F3"
+        android:drawableStart="@drawable/google1"
+        android:textSize="17sp"
+        android:textColor="#ffff"
+        android:padding="16dp"
+        android:drawablePadding="0dp"
+        android:layout_marginTop="20dp"
+        android:text="sign in with google " />
+
+
+</LinearLayout>
